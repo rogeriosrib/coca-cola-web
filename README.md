@@ -2,7 +2,7 @@
 
  ![](./imagens/SKUs-Ecommerce--1000-x-1000-px---9-.png)
 
- ### Projeto web anúncio utilizando vscode
+ ### Projeto web utilizando vscode
  
  ## Tecnologias 
  * HTML
