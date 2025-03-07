@@ -9,11 +9,12 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background:linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+    background: linear-gradient(#CF2425, #DA6062 50%, #DA6062 60%, #DA3B3F);
 
 }
 
-header, footer {
+header,
+footer {
     height: 100px;
     background-color: #CF2425;
     color: #FFFFFF;
@@ -26,6 +27,7 @@ header, footer {
 header span {
     font-weight: 600;
 }
+
 header {
     height: 100px;
     display: flex;
@@ -35,6 +37,7 @@ header {
     padding-left: 75px;
     justify-content: flex-start;
 }
+
 main {
     flex-grow: 1;
     display: flex;
@@ -42,3 +45,31 @@ main {
     align-items: center;
     background-color: #DA6062;
 }
+
+.background-logo {
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.content-text {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    width: 240px;
+    transform: translateX(-100%);
+    text-align: end;
+}
+
+.content-image{
+    height: 85vh;
+}
+
+
