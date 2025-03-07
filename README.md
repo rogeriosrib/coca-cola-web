@@ -1,10 +1,10 @@
-# coca-cola-web
+# Anúncio da Coca Cola 
 
  ![](./imagens/SKUs-Ecommerce--1000-x-1000-px---9-.png)
 
- ## Projeto web anúncio 
+ ### Projeto web anúncio utilizando vscode
  
- ## Tecnologias
+ ## Tecnologias 
  * HTML
  * CSS
 
