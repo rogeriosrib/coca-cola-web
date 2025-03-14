@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    background-color: blue;
+}
+
+header {
+    display: grid;
+}
+
+main {
+    display: grid;
+    background-color: rgb(91, 91, 215);
+    width: 100%;
+    height: 100%;
+
+}
+.tudo{
+    display: grid;
+    grid-template-columns: repeat(2, 40vh);
+    grid-template-rows: repeat(5, 20vh);
+    background-color: rgb(85, 85, 233);
+    place-content: center;
+
+    
+}
+.tudo .fundo {
+    width: 30vh;
+    height: 30vh;
+    border: solid 1px;
+    background-color: red;
+    grid-row-start: 2;
+
+}
+
+.tudo .latinha {
+    width: 80vh;
+    border: solid 1px;
+    background-color: red;
+    grid-row-start: 2;
+}
+
+.tudo h2{
+    color: white;
+    border: solid 1px;
+    background-color: red;
+    grid-row-start: 1;
+
+}
+
+footer {
+    display: grid;
+    place-content: center;
+}
