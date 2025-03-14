@@ -8,6 +8,7 @@
 
 body {
     display: grid;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient(90deg, rgba(33,54,136,1) 28%, rgba(203,223,255,1) 82%);
 
@@ -76,4 +77,37 @@ footer>.mundo {
     justify-self: end;
     padding: 20px;
 
+}
+@media (max-width: 1024px) {
+    body{
+        grid-template-columns: 1fr;
+        overflow-x: hidden;
+    }
+    header{
+        grid-template-columns: 50px 50px 50px;
+        width: 100px;
+    }
+    main{
+        width: 100px;
+        align-self: auto;
+        justify-self: auto;
+    }
+    .latinha{
+        width: 100dvw;
+    }
+    .fundo{
+        width: 100%;
+        height: 50%;
+        left: 0;
+
+    }
+    h2{
+        font-size: 1.25rem;
+        top: 45%;
+        left: 7%;
+    }
+    footer{
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
 }
