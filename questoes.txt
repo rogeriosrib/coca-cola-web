@@ -17,7 +17,7 @@ Explique o comando git commit e por que é importante criar uma mensagem descrit
  bem como e quais mudanças foram feitas.
 
 Qual a função do comando git push?
- O comando git push envia todas as mudanças realizadas no projeto para o diretório
+ O comando git push envia todas as mudanças realizadas no projeto para o repositório remoto
 
 Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
  Commits servem de certa forma para localizar mudanças feitas ou erros de forma prática, caso algo de errado podemos voltar
